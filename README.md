@@ -1,5 +1,5 @@
 # Linux Capable business Card
-![Board_3D_TOP.png](altium\images\Board_3D_TOP.png)
+![Board_3D_TOP.png](altium/images/Board_3D_TOP.png)
 
 
 <!-- TABLE OF CONTENTS -->
@@ -27,4 +27,4 @@ For more info check out the [project on hackaday.io](https://hackaday.io/project
 
 <!-- BLOCK DIAGRAM -->
 ## Block Diagram
-![block_diagram.png](images\block_diagram.png)
+![block_diagram.png](images/block_diagram.png)
