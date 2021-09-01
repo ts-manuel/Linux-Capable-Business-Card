@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [Linux-Capable-Businnes-Card.PcbDoc]
+   Generated File[Linux-Capable-Businnes-Card.TXT]
+   Generated File[Linux-Capable-Businnes-Card.LDP]
+   Generated File[Linux-Capable-Businnes-Card.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 14:38:01 On 01/09/2021

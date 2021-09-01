@@ -1,0 +1,90 @@
+Protel Design System Design Rule Check
+PCB File : W:\Linux-Capable-Business-Card\altium\Linux-Capable-Businnes-Card.PcbDoc
+Date     : 01/09/2021
+Time     : 14:36:06
+
+Processing Rule : Clearance Constraint (Gap=0.127mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.09mm) (OnLayer('L1 (TOP)') or OnLayer('L4 (BOTTOM)')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.3mm) (OnLayer('L3 (PWR)')),(IsRegion)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.09mm) (Max=4mm) (Preferred=0.254mm) (All)
+Rule Violations :0
+
+Processing Rule : Routing Layers(All)
+Rule Violations :0
+
+Processing Rule : Routing Via (MinHoleWidth=0.2mm) (MaxHoleWidth=1mm) (PreferredHoleWidth=0.2mm) (MinWidth=0.45mm) (MaxWidth=1.6mm) (PreferedWidth=0.45mm) (All)
+Rule Violations :0
+
+Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.152mm) (Max=0.152mm) (Prefered=0.152mm)  and Width Constraints (Min=0.141mm) (Max=0.141mm) (Prefered=0.141mm) (InDifferentialPairClass('DIFF90'))
+Rule Violations :0
+
+Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.152mm) (Max=0.152mm) (Prefered=0.152mm)  and Width Constraints (Min=0.11mm) (Max=0.11mm) (Prefered=0.11mm) (InDifferentialPairClass('DIFF100'))
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.2mm) (Max=6mm) (All)
+Rule Violations :0
+
+Processing Rule : Pads and Vias to follow the Drill pairs settings
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.2mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.15mm) (HasFootprint('UJ2-MIBH-G-SMT-TR')),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.1mm) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=5.08mm) (InxSignalClass('FLASH'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.635mm) (InxSignalClass('DRAM_BANK1'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.635mm) (InxSignalClass('DRAM_BANK0'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=2.54mm) (InxSignalClass('DRAM_ADDR_CTRL'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.127mm) (InxSignalClass('DRAM_ADDR_CTRL'))
+Rule Violations :0
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0.254mm, Vertical Gap = 0.254mm ) (All),(All) 
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 0
+Waived Violations : 0
+Time Elapsed        : 00:00:02

@@ -1,0 +1,22 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: Linux-Capable-Businnes-Card.GBR   01/09/2021  14:37:59
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTO                Top Overlay                             
+.GTP                Top Paste                               
+.GTS                Top Solder                              
+.GTL                L1 (TOP)                                
+.G1                 L2 (GND)                                
+.G2                 L3 (PWR)                                
+.GBL                L4 (BOTTOM)                             
+.GBS                Bottom Solder                           
+.GBP                Bottom Paste                            
+.GBO                Bottom Overlay                          
+.GM3                Manufacturing Notes                     
+.GM4                Mechanical Drawing                      
+.GM5                Board Outline                           
+------------------------------------------------------------------------------------------

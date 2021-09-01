@@ -1,0 +1,7 @@
+DRC Rules Export File for PCB: W:\Linux-Capable-Business-Card\altium\Linux-Capable-Businnes-Card.PcbDoc
+RuleKind=Clearance|RuleName=Clearance_PowerPoly|Scope=Board|Minimum=11.81
+RuleKind=Clearance|RuleName=Clearance_TOP_BOTTOM|Scope=Board|Minimum=3.54
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=1.97
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=3.54
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=5.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
