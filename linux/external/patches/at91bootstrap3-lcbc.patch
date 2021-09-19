@@ -35,7 +35,7 @@ index 11ddf052..54af219c 100644
  	reg |= AT91C_EBI_DRV;	/* according to IAR verification package */
  	writel(reg, AT91C_BASE_CCFG + CCFG_EBICSA);
 diff --git a/board/at91sam9n12ek/at91sam9n12ek.h b/board/at91sam9n12ek/at91sam9n12ek.h
-index 1184239d..f2e6930b 100644
+index 1184239d..6ada9f96 100644
 --- a/board/at91sam9n12ek/at91sam9n12ek.h
 +++ b/board/at91sam9n12ek/at91sam9n12ek.h
 @@ -35,16 +35,15 @@
@@ -43,21 +43,19 @@ index 1184239d..f2e6930b 100644
   * PLL initialization is done later in the hw_init() function
   */
 -#define MASTER_CLOCK		(132096000)
-+#define MASTER_CLOCK		(100000000)
++#define MASTER_CLOCK		(133000000)
  
 -#define BOARD_MAINOSC		16000000
--#define BOARD_MCK		133000000
 +#define BOARD_MAINOSC		12000000
-+#define BOARD_MCK		100000000
+ #define BOARD_MCK		133000000
  #define BOARD_OSCOUNT		(AT91C_CKGR_OSCOUNT & (64 << 8))
--#define BOARD_CKGR_PLLA		(AT91C_CKGR_SRCA | AT91C_CKGR_OUTA_0)
-+#define BOARD_CKGR_PLLA		(AT91C_CKGR_SRCA | AT91C_CKGR_OUTA_3)
+ #define BOARD_CKGR_PLLA		(AT91C_CKGR_SRCA | AT91C_CKGR_OUTA_0)
  #define BOARD_PLLACOUNT		(0x3F << 8)
 -//#define BOARD_MULA		(AT91C_CKGR_MULA & (199 << 16))
 -#define BOARD_MULA		(AT91C_CKGR_MULA & (149 << 16))
 -#define BOARD_DIVA		(AT91C_CKGR_DIVA & 3)
-+#define BOARD_MULA		(AT91C_CKGR_MULA & (49 << 16))
-+#define BOARD_DIVA		(AT91C_CKGR_DIVA & 1)
++#define BOARD_MULA		(AT91C_CKGR_MULA & (132 << 16))
++#define BOARD_DIVA		(AT91C_CKGR_DIVA & 2)
  
  #define BOARD_PRESCALER_MAIN_CLOCK	(AT91C_PMC_PLLADIV2_2 \
  					| AT91C_PMC_MDIV_3 \
