@@ -8,6 +8,7 @@
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#block-diagram">Block Diagram</a></li>
+    <li><a href="#getting-started">Block Diagram</a></li>
   </ol>
 </details>
 
@@ -28,3 +29,19 @@ For more info check out the [project on hackaday.io](https://hackaday.io/project
 <!-- BLOCK DIAGRAM -->
 ## Block Diagram
 ![block_diagram.png](images/block_diagram.png)
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+### Getting the code
+    git clone --recursive https://github.com/ts-manuel/Linux-Capable-Business-Card.git
+
+### Compinig
+    cd linux
+    ./setup.sh
+    ./build_sd_linux_dt.sh
+
+
+### Buildroot Folder Structure
+- buildroot/output/build/     where pakages are downloaded and builded
+- buildroot/output/images/    where images are copied after building
